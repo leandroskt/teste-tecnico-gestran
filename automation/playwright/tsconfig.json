@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "strict": true,
+        "types": [
+            "node",
+            "playwright"
+        ],
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "resolveJsonModule": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "features/**/*.ts"
+    ]
+}
